@@ -1,0 +1,11 @@
+flask
+connexion
+decorator
+pyyaml
+plac
+python-baseconv
+passlib
+dataset
+fastapi
+setuptools
+uvicorn
