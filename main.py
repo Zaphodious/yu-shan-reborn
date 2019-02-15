@@ -7,6 +7,7 @@ app = fastapi.FastAPI()
 class Entity(pydantic.BaseModel) :
     thing:int
     another:str = None
+    foo:str = "thing"
 
 @app.get("/")
 def read_root():

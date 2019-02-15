@@ -1,4 +1,3 @@
-import dataset
 
 def initDatabase():
     db = dataset.connect('sqlite:///db1.sqlite')
